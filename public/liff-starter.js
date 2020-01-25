@@ -102,7 +102,7 @@ function registerButtonHandlers() {
     // openWindow call
     document.getElementById('openWindowButton').addEventListener('click', function() {
         liff.openWindow({
-            url: 'https://pendaftaran.herokuapp.com/', // Isi dengan Endpoint URL aplikasi web Anda
+            url: 'https://pendaftaranlineliff.herokuapp.com/', // Isi dengan Endpoint URL aplikasi web Anda
             external: true
         });
     });
